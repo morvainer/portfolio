@@ -16,11 +16,12 @@ function renderPortfolios() {
               <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
-          <img  class="img-fluid" src=${project.url} alt="">
+          <img style="width: 30rem; height: 15rem" class="img-fluid"  src=${project.url} alt="">
         </a>
         <div class="portfolio-caption">
           <h4>${project.name}</h4>
           <p class="text-muted">${project.title}</p>
+          <h6> <span class="badge badge-secondary">${project.labels[0]} </span></h6>
         </div>
         </div>`
     });

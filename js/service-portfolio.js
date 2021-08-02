@@ -6,17 +6,29 @@ var gProjs = [{
     title: "This is a minesweeper game",
     desc: "lorem ipsum lorem ipsum lorem ipsum",
     url: "img/portfolio/minesweeper.jpg",
-    publishedAt: 1448693940000,
+    publishedAt: '02/08/2021',
     labels: ["Matrixes", "keyboard events"],
+    gitHubUrl: "https://morvainer.github.io/minesweeper/"
 },
 {
     id: "102",
-    name: "MineSweeper2",
-    title: "This is a minesweeper2 game",
+    name: "TouchNums",
+    title: "This is TouchNums game",
     desc: "lorem ipsum lorem ipsum lorem ipsum",
-    url: "img/portfolio/minesweeper.jpg",
-    publishedAt: 1448693940002,
+    url: "img/portfolio/touchnums.jpg",
+    publishedAt: '02/08/2021',
     labels: ["Matrixes", "keyboard events"],
+    gitHubUrl: "https://morvainer.github.io/touchnums/"
+},
+{
+    id: "103",
+    name: "PacMan",
+    title: "This is Pacman game",
+    desc: "lorem ipsum lorem ipsum lorem ipsum",
+    url: "img/portfolio/pacman.jpg",
+    publishedAt: '02/08/2021',
+    labels: ["Matrixes", "keyboard events"],
+    gitHubUrl: "https://morvainer.github.io/pacman/"
 }
 ];
 

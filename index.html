@@ -8,10 +8,11 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Coding Academy</title>
+  <title>Mor's Portfolio</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -29,20 +30,20 @@
   <div class="offcanvas-btn" onClick="openCanvas()">
     <i class="fa fa-comment" aria-hidden="true"></i>
   </div>
-  <aside class="offcanvas-aside">
+  <aside class="offcanvas-aside p-3 mb-2 bg-info text-white">
 
   <!-- Contact -->
-  <section id="contact">
-    <h4>Contact Me</h4>
+  <section id="contact" class="contact-section">
+    <h4 class="contact-me">Contact Me</h4>
     <form class="contact-form">
-      <label for="email">Your Email: </label>
-      <input name="email" type="txt" id="newEmail" placeholder="name@example.com" required />
+      <label class="label" for="email">Your Email: </label>
+      <input class="input" name="email" type="txt" id="newEmail" placeholder="name@example.com" required />
 
       <label for="subject">Subject</label>
-      <input name="subject" type="txt" id="newSubject" placeholder="Type subject here" required />
+      <input class="input" name="subject" type="txt" id="newSubject" placeholder="Type subject here" required />
       
       <label for="message">Message body</label>
-      <input name="message" type="txt" id="newMessage" placeholder="Type message txt here" required />
+      <input class="input" name="message" type="txt" id="newMessage" placeholder="Type message text here" required />
 
       <button type="button" onclick="onSubmit()" class="btn btn-add-guess  bg-secondary text-white fw-bolder fs-3 text-uppercase">Submit</button>
     </form>
