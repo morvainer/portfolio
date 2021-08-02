@@ -5,7 +5,7 @@ var gProjs = [{
     name: "MineSweeper",
     title: "This is a minesweeper game",
     desc: "lorem ipsum lorem ipsum lorem ipsum",
-    url: "img/portfolio/minesweeper.png",
+    url: "img/portfolio/minesweeper.jpg",
     publishedAt: 1448693940000,
     labels: ["Matrixes", "keyboard events"],
 },
@@ -14,7 +14,7 @@ var gProjs = [{
     name: "MineSweeper2",
     title: "This is a minesweeper2 game",
     desc: "lorem ipsum lorem ipsum lorem ipsum",
-    url: "img/portfolio/minesweeper.png",
+    url: "img/portfolio/minesweeper.jpg",
     publishedAt: 1448693940002,
     labels: ["Matrixes", "keyboard events"],
 }
